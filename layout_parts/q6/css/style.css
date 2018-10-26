@@ -3,3 +3,64 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.content_textalign {
+  text-align: center;
+}
+.text_textalign {
+  width: 90px;
+  padding: 10px 0;
+  display: inline-block;
+  background-color: #e6f2ff;
+}
+.text_margin {
+  text-align: center;
+  width: 90px;
+  padding: 10px 0;
+  margin: 0 auto;
+  background-color: #e6f2ff;
+}
+
+.q6 {
+  display:table;
+}
+
+.content_table {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.text_table {
+  padding: 10px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.q6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_flex {
+  padding: 10px;
+  background-color: #fff;
+}
+.is-stable {
+  position: relative;
+}
+.is-stable_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.is-flexible {
+  position: relative;
+}
+.is-flexible_inner {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}

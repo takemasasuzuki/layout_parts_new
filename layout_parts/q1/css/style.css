@@ -3,3 +3,62 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.q1 {
+  background-color: #eff3f4;
+  width: 940px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.q1 :first-child {
+margin-left: 0;
+}
+.contents_left, .contents_center, .contents_right {
+  float: left;
+}
+
+.contents_left {
+  background-color: #3274ae;
+  margin-left: 20px;
+  padding: 20px;
+}
+.contents_center {
+  background-color: #3274ae;
+  margin-left: 20px;
+  padding: 20px;
+}
+.contents_right {
+  background-color: #3274ae;
+  margin-left: 20px;
+  padding: 20px
+}
+.contents_left_box {
+  background-color: #eaf4ff;
+  width: 230px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: solid 10px #022336;
+}
+.contents_center_box {
+  background-color: #eaf4ff;
+  width: 230px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: solid 10px #022336;
+}
+.contents_right_box {
+  background-color: #eaf4ff;
+  width: 230px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: solid 10px #022336;
+}
+p {
+  font-size: 16px;
+  line-height: 16px;
+  word-break: break-all;
+}

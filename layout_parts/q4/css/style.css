@@ -3,3 +3,49 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.q4 {
+  padding: 20px;
+  text-align: center
+}
+.table_top {
+  display: table;
+  width: 100%;
+}
+.content_top_left {
+  display: table-cell;
+  background-color: #fdc8b8;
+  width: 100px;
+  padding:20px;
+}
+.content_top_center {
+  display: table-cell;
+  background-color: #e0abd9;
+  padding: 20px;
+}
+.content_top_right {
+  display: table-cell;
+  background-color: #b6d8ed;
+  width: 100px;
+  padding: 20px;
+}
+.table_bottom {
+  display: table;
+  margin-top: 20px;
+  width: 100%;
+}
+.content_bottom_left {
+  display: table-cell;
+  background-color: #e5d32e;
+  padding: 20px;
+}
+.content_bottom_center {
+  display: table-cell;
+  background-color: #ec8f9a;
+  padding: 20px;
+}
+.content_bottom_right {
+  display: table-cell;
+  background-color: #8fdcad;
+  width: 500px;
+  padding: 20px;
+}

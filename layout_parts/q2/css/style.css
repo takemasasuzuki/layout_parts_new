@@ -3,3 +3,29 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.q2 {
+  background-color: #eff3f4;
+  box-sizing: border-box;
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.left_image {
+  float: left;
+  margin: 0 20px 10px 0;
+}
+.right_image {
+  float: right;
+  margin: 0 0 10px 20px;
+}
+p {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
