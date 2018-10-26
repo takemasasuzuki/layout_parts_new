@@ -23,7 +23,7 @@ font-size: 0;
   box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
   color: #222;
 }
-.q8--btn :nth-child(2) {
+.q8--btn .q8__btn:nth-child(2) {
   margin-left: 0;
 }
 .q8__btn {
@@ -32,7 +32,7 @@ font-size: 0;
   box-sizing: border-box;
   cursor: pointer;
 }
-.q8--btn :nth-child(4){
+.disabled {
   cursor: default;
 }
 .small {
@@ -132,6 +132,9 @@ font-size: 0;
   font-size: 12px;
   box-sizing: border-box;
 }
+.q8__input:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
 .is-required {
   color: #F00;
 }
@@ -169,6 +172,9 @@ font-size: 0;
   border-radius: 50%;
   content: "";
 }
+.q8__select {
+  position: relative;
+}
 .q8__select_body {
   width: 100%;
   padding: 5px;
@@ -178,6 +184,19 @@ font-size: 0;
   line-height: 12px;
   box-sizing: border-box;
   cursor: pointer;
+}
+.q8__select:after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
 }
 .q8__checkbox {
   text-align: right;
@@ -242,4 +261,7 @@ font-size: 0;
   font-size: 12px;
   box-sizing: border-box;
   resize: none;
+}
+.q8__form_side_text:focus {
+  box-shadow: 0 0 7px #00BCD4;
 }
